@@ -1,6 +1,9 @@
 html{
   font-family: 'Open Sans', sans-serif;
   background-color: #f9fafc;
+  position: relative;
+  width:100%;
+  min-height: 100vh;
 
 }
 
@@ -27,7 +30,22 @@ button {
   color:#fff;
 }
 
+header{
+  display:flex;
+  flex-direction: column;
+}
+
+header a{
+  display:flex;
+  flex-direction: column;
+}
 
 footer{
   background: rgba(247, 193, 162, 0.7);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
